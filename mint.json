@@ -1,9 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Nuplace",
   "logo": {
     "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "href": "https://mintlify.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -15,6 +16,10 @@
       "to": "#b584f1"
     }
   },
+  "topAnchor": {
+    "name": "Mintlify topAnchor"
+  },
+
   "topbarLinks": [
     {
       "name": "Support",
@@ -31,6 +36,19 @@
       "url": "api-reference"
     }
   ],
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "versions": [
+    {
+      "name": "v1",
+      "url": "v1"
+    },
+    {
+      "name": "v2",
+      "url": "v2"
+    }],
   "anchors": [
     {
       "name": "Documentation",
@@ -46,7 +64,21 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
-    }
+    },
+    {
+      "name": "API Reference V1",
+      "url": "v1/api-reference",
+      "version": "v1"
+  },
+  {
+      "name": "API Reference V2",
+      "url": "v2/api-reference",
+      "version": "v2"
+  },
+  {
+      "name": "Anchor Without a Version",
+      "url": "example-anchor"
+  }
   ],
   "navigation": [
     {
@@ -55,7 +87,13 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
