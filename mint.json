@@ -74,8 +74,8 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Introduction",
+      "pages": ["welcome"]
     },
     {
       "group": "Essentials",
