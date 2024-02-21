@@ -24,18 +24,22 @@
 
   "topbarLinks": [
     {
-      "name": "Agenda una llamada",
+      "name": "Demo",
       "url": "https://meet.nuplace.io/ryabar"
     }
   ],
   "topbarCtaButton": {
-    "name": "Empieza gratis",
+    "name": "Empieza",
     "url": "https://dashboard.nuplace.io"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "API Referencia",
       "url": "api-reference"
+    },
+    {
+      "name": "Integraciones",
+      "url": "integrations"
     }
   ],
   "modeToggle": {
@@ -45,7 +49,7 @@
 
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "DocumentationX",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
