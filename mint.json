@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "https://mintlify.com"
+    "href": "https://docs.nuplace.io"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -17,18 +17,20 @@
     }
   },
   "topAnchor": {
-    "name": "Mintlify topAnchor"
+    "name": "topAnchor",
+    "icon": "book-open",
+    "iconType": "solid"
   },
 
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Agenda una llamada",
+      "url": "https://meet.nuplace.io/ryabar"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Empieza gratis",
+    "url": "https://dashboard.nuplace.io"
   },
   "tabs": [
     {
