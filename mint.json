@@ -25,20 +25,20 @@
   "topbarLinks": [
     {
       "name": "Demo",
-      "url": "https://meet.nuplace.io/ryabar"
+      "url": "https://meet.nuplace.io/demo"
     }
   ],
   "topbarCtaButton": {
-    "name": "Empieza",
+    "name": "Get started",
     "url": "https://dashboard.nuplace.io"
   },
   "tabs": [
     {
-      "name": "API Referencia",
+      "name": "API Reference",
       "url": "api-reference"
     },
     {
-      "name": "Integraciones",
+      "name": "Integrations",
       "url": "integrations"
     }
   ],
@@ -49,19 +49,19 @@
 
   "anchors": [
     {
-      "name": "DocumentationX",
+      "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.nuplace.io"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Let's Talk",
+      "icon": "phone",
+      "url": "https://meet.nuplace.io/lets-talk"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailito:contact@nuplace.io"
     },
     {
       "name": "API Reference V1",
