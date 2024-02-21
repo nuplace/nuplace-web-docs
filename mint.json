@@ -22,6 +22,14 @@
     "iconType": "solid"
   },
 
+  "versions": [
+    { "name": "English", "url": "/" },
+    {
+      "name": "Español",
+      "url": "/spanish"
+    }
+  ],
+
   "topbarLinks": [
     {
       "name": "Demo",
