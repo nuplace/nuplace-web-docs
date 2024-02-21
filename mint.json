@@ -99,6 +99,10 @@
         "api-reference/endpoint/delete",
         "api-reference/endpoint/patch"
       ]
+    },
+    {
+      "group": "Integrations",
+      "pages": ["integrations/introduction"]
     }
   ],
   "footerSocials": {
