@@ -97,6 +97,42 @@
       }
     },
     "/plants/{id}": {
+      "patch": {
+        "description": "Patch a single plant based on the ID supplied",
+        "requestBody": {
+          "description": "Plant to patch to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewPlant"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "plant response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Plant"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
       "delete": {
         "description": "Deletes a single plant based on the ID supplied",
         "parameters": [
