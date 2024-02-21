@@ -48,7 +48,13 @@
     {
       "name": "v2",
       "url": "v2"
-    }],
+    },
+    {
+      "name": "v3",
+      "url": "v3"
+    }
+  ],
+
   "anchors": [
     {
       "name": "Documentation",
@@ -69,16 +75,16 @@
       "name": "API Reference V1",
       "url": "v1/api-reference",
       "version": "v1"
-  },
-  {
+    },
+    {
       "name": "API Reference V2",
       "url": "v2/api-reference",
       "version": "v2"
-  },
-  {
+    },
+    {
       "name": "Anchor Without a Version",
       "url": "example-anchor"
-  }
+    }
   ],
   "navigation": [
     {
