@@ -95,7 +95,7 @@
           "pages": [
             "api-reference/products/overview",
             {
-              "group": "Reference",
+              "group": "Endpoints",
               "pages": [
                 "api-reference/products/get",
                 "api-reference/products/create",
@@ -110,7 +110,7 @@
           "pages": [
             "api-reference/orders/overview",
             {
-              "group": "Reference",
+              "group": "Endpoints",
               "pages": [
                 "api-reference/orders/get",
                 "api-reference/orders/create",
@@ -127,7 +127,7 @@
       "pages": [
         "api-reference/webhooks/overview",
         {
-          "group": "Reference",
+          "group": "Endpoints",
           "pages": [
             "api-reference/webhooks/get",
             "api-reference/webhooks/create",
@@ -142,15 +142,6 @@
             "api-reference/webhooks/events/order-rejected"
           ]
         }
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete",
-        "api-reference/endpoint/patch"
       ]
     },
     {
