@@ -99,6 +99,18 @@
     "/plants/{id}": {
       "patch": {
         "description": "Patch a single plant based on the ID supplied",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of plant to update",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
         "requestBody": {
           "description": "Plant to patch to the store",
           "content": {
