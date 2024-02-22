@@ -40,6 +40,10 @@
     "name": "Get started",
     "url": "https://dashboard.nuplace.io"
   },
+
+  "primaryTab": {
+    "name": "DocumentationGSA"
+  },
   "tabs": [
     {
       "name": "API Reference",
