@@ -86,26 +86,38 @@
       "pages": ["about/overview", "about/use-cases"]
     },
     {
-      "group": "API Documentation",
+      "group": "API Reference",
       "pages": [
         "api-reference/introduction",
         "api-reference/authorization",
         {
           "group": "Products",
           "pages": [
-            "api-reference/products/get",
-            "api-reference/products/create",
-            "api-reference/products/delete",
-            "api-reference/products/patch"
+            "api-reference/products/overview",
+            {
+              "group": "Reference",
+              "pages": [
+                "api-reference/products/get",
+                "api-reference/products/create",
+                "api-reference/products/delete",
+                "api-reference/products/patch"
+              ]
+            }
           ]
         },
         {
           "group": "Orders",
           "pages": [
-            "api-reference/orders/get",
-            "api-reference/orders/create",
-            "api-reference/orders/delete",
-            "api-reference/orders/patch"
+            "api-reference/orders/overview",
+            {
+              "group": "Reference",
+              "pages": [
+                "api-reference/orders/get",
+                "api-reference/orders/create",
+                "api-reference/orders/delete",
+                "api-reference/orders/patch"
+              ]
+            }
           ]
         }
       ]
@@ -113,10 +125,23 @@
     {
       "group": "Webhooks",
       "pages": [
-        "api-reference/webhooks/get",
-        "api-reference/webhooks/create",
-        "api-reference/webhooks/delete",
-        "api-reference/webhooks/patch"
+        "api-reference/webhooks/overview",
+        {
+          "group": "Reference",
+          "pages": [
+            "api-reference/webhooks/get",
+            "api-reference/webhooks/create",
+            "api-reference/webhooks/delete",
+            "api-reference/webhooks/patch"
+          ]
+        },
+        {
+          "group": "Events",
+          "pages": [
+            "api-reference/webhooks/events/order-created",
+            "api-reference/webhooks/events/order-rejected"
+          ]
+        }
       ]
     },
     {
