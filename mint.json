@@ -88,7 +88,7 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction",
+        "introduction",
         {
           "group": "Products",
           "pages": [
