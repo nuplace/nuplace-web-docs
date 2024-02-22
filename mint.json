@@ -82,14 +82,8 @@
       "pages": ["welcome"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
-      ]
+      "group": "About Nuplace",
+      "pages": ["about/overview", "about/use-cases"]
     },
     {
       "group": "API Documentation",
