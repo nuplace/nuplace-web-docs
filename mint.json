@@ -101,8 +101,12 @@
       ]
     },
     {
-      "group": "Integrations",
-      "pages": ["integrations/introduction"]
+      "group": "Stores",
+      "pages": ["integrations/stores/whatsapp"]
+    },
+    {
+      "group": "Analytics",
+      "pages": ["integrations/analytics/gtm"]
     }
   ],
   "footerSocials": {
