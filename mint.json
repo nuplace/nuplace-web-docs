@@ -90,6 +90,15 @@
       "pages": ["api-reference/introduction"]
     },
     {
+      "group": "Webhooks",
+      "pages": [
+        "api-reference/webhooks/get",
+        "api-reference/webhooks/create",
+        "api-reference/webhooks/delete",
+        "api-reference/webhooks/patch"
+      ]
+    },
+    {
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
