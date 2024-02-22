@@ -89,22 +89,23 @@
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction",
+        "api-reference/authorization",
         {
-          "group": "Webhooks",
+          "group": "Products",
           "pages": [
-            "api-reference/webhooks/get",
-            "api-reference/webhooks/create",
-            "api-reference/webhooks/delete",
-            "api-reference/webhooks/patch"
+            "api-reference/products/get",
+            "api-reference/products/create",
+            "api-reference/products/delete",
+            "api-reference/products/patch"
           ]
         },
         {
-          "group": "Endpoint Examples",
+          "group": "Orders",
           "pages": [
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/create",
-            "api-reference/endpoint/delete",
-            "api-reference/endpoint/patch"
+            "api-reference/orders/get",
+            "api-reference/orders/create",
+            "api-reference/orders/delete",
+            "api-reference/orders/patch"
           ]
         }
       ]
