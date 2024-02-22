@@ -91,7 +91,14 @@
         "api-reference/introduction"
       ]
     },
-    
+    {
+      "group": "Webhooks",
+      "pages": [
+        "api-reference/webhooks/add-webhook",
+        "api-reference/webhooks/list-webhooks",
+        "api-reference/webhooks/delete-webhook"
+      ]
+    },
     {
       "group": "Endpoint Examples",
       "pages": [
