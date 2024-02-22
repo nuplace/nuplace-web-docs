@@ -95,7 +95,7 @@
       "group": "Webhooks",
       "pages": [
         "api-reference/webhooks/add-webhook",
-        "api-reference/webhooks/list-webhooks",
+        "api-reference/webhooks/list-webhook",
         "api-reference/webhooks/delete-webhook"
       ]
     },
