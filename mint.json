@@ -85,12 +85,6 @@
       "group": "About Nuplace",
       "pages": ["about/overview", "about/use-cases"]
     },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
     
     {
       "group": "Endpoint Examples",
